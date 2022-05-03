@@ -1,6 +1,7 @@
 from clases.Persona import Persona
 
 
+# herencia simple
 class Empleado(Persona):
     def __init__(self, nombre, apellido, edad, sueldo):
         super().__init__(nombre, apellido, edad)

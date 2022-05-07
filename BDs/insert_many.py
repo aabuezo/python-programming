@@ -3,9 +3,9 @@ import psycopg2
 
 
 conn = psycopg2.connect(
-    user='user',
-    password='pass',
-    host='serverlx',
+    user='usuario',
+    password='password',
+    host='localhost',
     port='5432',
     database='test_db'
 )
@@ -14,6 +14,7 @@ try:
     with conn:
         with conn.cursor() as cursor:
             sentencia = 'INSERT INTO personas(nombre, apellido, email) VALUES(%s, %s, %s)'
+            # executemany necesita una tupla de tuplas
             valores = (
                 ('Marcos', 'Cantu', 'mcantu@mail.com'),
                 ('Angel', 'Quintana', 'aquintana@mail.com'),

@@ -4,9 +4,9 @@ import psycopg2 as bd
 
 
 conexion = bd.connect(
-    user='user',
-    password='pass',
-    host='serverlx',
+    user='usuario',
+    password='password',
+    host='localhost',
     port='5432',
     database='test_db'
 )

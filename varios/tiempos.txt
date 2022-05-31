@@ -1,0 +1,45 @@
+Se comienza a cargar la criba...
+Fin carga criba.
+tiempo: 1391.1398241519928
+Guardando la criba en <_io.TextIOWrapper name='criba.txt' mode='a' encoding='UTF-8'>
+se guardo el archivo.
+
+************************************************************************************
+
+ale@nblnx:~/code/python/vc$ ls -lha
+total 567M
+drwxrwxr-x 2 ale ale 4,0K may 10 22:50 .
+drwxrwxr-x 6 ale ale 4,0K may  7 00:53 ..
+-rw-rw-r-- 1 ale ale 567M may 10 22:50 criba.txt
+-rw-rw-r-- 1 ale ale 109K may  8 19:49 hello.c
+-rw-rw-r-- 1 ale ale   50 may  8 19:54 hello.pyx
+-rw-rw-r-- 1 ale ale 4,0K may  8 02:37 test_big_primes.py
+-rw-rw-r-- 1 ale ale 3,5K may 10 22:52 test_primes.py
+-rw-rw-r-- 1 ale ale  673 may  7 13:25 test_redis.py
+-rw-rw-r-- 1 ale ale  271 may 10 22:51 tiempos.txt
+
+************************************************************************************
+
+ale@nblnx:~/code/python/vc$ /bin/python3 /home/ale/code/python/vc/test_primes.py
+Leyendo el archivo: <_io.TextIOWrapper name='criba.txt' mode='r' encoding='UTF-8'>
+Se cargo la criba en memoria.
+total: 26 prime numbers in 100 numbers. That's 26.0 percent.
+time: 8.416175842285156e-05
+
+total: 169 prime numbers in 1000 numbers. That's 16.900000000000002 percent.
+time: 0.00037169456481933594
+
+total: 1230 prime numbers in 10000 numbers. That's 12.3 percent.
+time: 0.005459785461425781
+
+total: 9593 prime numbers in 100000 numbers. That's 9.593 percent.
+time: 0.10923123359680176
+
+total: 78499 prime numbers in 1000000 numbers. That's 7.8499 percent.
+time: 2.517195463180542
+
+total: 664580 prime numbers in 10000000 numbers. That's 6.6458 percent.
+time: 66.52462863922119
+
+total: 5761456 prime numbers in 100000000 numbers. That's 5.761456 percent.
+time: 1734.9160447120667

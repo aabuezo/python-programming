@@ -1,0 +1,44 @@
+[Databases]
+sqlite3
+psycopg2
+aiopg: asynchronous version of psycopg2
+SQLAlchemy: ORM, almost any database (wrapper)
+
+[Web development]
+Flask
+Django
+aiohttp, Tornado, Sanic, Quart: asynchronous
+Bottle
+
+[Communications]
+smtplib: email
+Mailgun
+Twilio: sms, call center products, others
+
+[GUI Design]
+Kivy: best?
+Tkinter
+
+[Data Science]
+NumPy
+SciPy
+Pandas
+Matplotlib
+Jupyter notebooks: tool, not a library
+TensorFlow
+others
+
+[Computer vision]
+OpenCV
+SimpleCV
+
+[Development tools]
+pylint
+flake8: formatter
+yapf: yet another python formatter --in-place changes the file
+Black: formatter
+
+[IDEs]
+PyCharm
+VSCode
+others
